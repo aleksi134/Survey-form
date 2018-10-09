@@ -1,0 +1,63 @@
+main {
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+  #description {
+  font-family: Verdana;
+  font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  
+  body {
+    background-color: #a9d7d1;
+    background-size: cover;
+  }
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin-top: 75px;
+  Padding: 50px 0px 5px 0px;
+}
+
+#survey-form {
+  background-color: #eaedf2;
+  text-align: center;
+  margin: 0px auto;
+  border-radius: 5px;
+  max-width: 900px;
+  min-width: 600px;
+  width: 75%;
+  padding-bottom: 50px;
+}
+
+#submit {
+  background-color: #59ace0;
+  color: white;
+  border-radius: 4px;
+  height: 40px;
+  width: 90px;
+  border: 0px;
+  margin: 10px;
+}
+
+
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+.radio, .checkbox{
+  position: relative;
+  left:-27px;
+  padding-bottom: 5px;
+  /*
+  background-color: yellow;*/
+  display: block;
+}
+
