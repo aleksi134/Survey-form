@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+<main>
+  <h1 id="title" align="middle">Survey Form </h1>
+  <div>
+    <p id="description">
+      Tell me your preference in monitors
+    </p>
+    
+    <form id="survey-form">
+      <!--name and email-->
+      <label for="name" id="name-label" class="labels">Name:</label>
+      <input id="name" value="name" type="text" value="Name" placeholder="Enter your name here" required><br>
+      <label for="email" id="email-label" class="labels">Email:</label>
+      <input type="email" value="email" id="email" type="text" name="email" required placeholder="Enter your email here"> <br>
+      <label for="age" id="age-label" class="labels">Age:</label>
+      <input id="age" type="text" name="age" required placeholder="Enter your age here"><br>
+      <!--numbers-->
+      <label for="number" class="labels">How many monitors have you used?:</label>
+      <input id="number" type="number" name="number" min="0" max="100" placeholder="Number"><br>
+      <label for="number" id="number-label" class="labels">How many monitors that are 60hz have you used?:</label>
+      <input id="number" type="number" name="number" min="0" max="100" placeholder="Number"><br>
+      
+      <label id="number label" class="labels">How many monitors that are 144hz have you used?:</label>
+      <input id="number" type="number" name="number" min="0" max="100" placeholder="Number"><br>
+      <!--dropdown-->
+      <label>Select what monitor hz you prefer:</label>
+      <select name="monitors" id="dropdown">
+  <option value="60hz">60hz</option>
+  <option value="120hz">120hz</option>
+  <option value="144hz">144hz</option>
+  <option value="240hz">240hz</option>
+</select><br>
+      <!--Radio buttons-->
+      <label class="labels">Your favorite monitor model/brand:</label><br>
+    <input  type="radio"  name="brand" value="brand"  >Asus<br>
+     <input  type="radio"  name="brand" value="brand" >Acer<br>
+      <input type="radio"  name="brand" value="brand" >BenQ<br>
+       <!--checkbox-->
+      <label class="labels">Most important features of a monitor:</label><br>
+<input type="checkbox" name="G-sync" value="Sync"> G-sync<br>
+<input type="checkbox" name="3d vision" value="3d" checked>3d vision<br>
+      <input type="checkbox" name="High refreshrate" value="refresh" checked>Refresh rate<br>
+      <input type="checkbox" name="speakers" value="speaker" checked>Speaker sound system<br>
+      <input type="checkbox" name="color" value="color" checked>TN or IPS pannel with great colors<br>
+      <!--comments-->
+<textarea id="comments" rows="4" cols="50">
+Any other features
+</textarea><br>
+<input id="submit" type="submit"><br>
+    </form>
+    
+    
+ 
+  </div>
+</main>
+  </body>
+</html>
